@@ -20,7 +20,7 @@ function writeCustomerIntoTable(nameValue, emailValue, balanceValue, accountIdVa
       localStorage.setItem("name",row.cells[1].innerHTML);
       localStorage.setItem("balance",row.cells[3].innerHTML);
       localStorage.setItem("email",row.cells[2].innerHTML);
-      location.href = 'file:///home/pragyesh/Documents/workspace/basic-banking-system/singleCustomer.html';
+      location.href = 'singleCustomer.html';
       };
   };
   row.onclick = createClickHandler(row);
